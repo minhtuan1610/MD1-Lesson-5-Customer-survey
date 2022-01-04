@@ -1,0 +1,31 @@
+.range {
+    width: 500px;
+}
+
+#dollar {
+    width: 80px;
+}
+
+#cents {
+    width: 20px;
+}
+
+thead {
+    text-align: left;
+}
+
+tbody th {
+    text-align: left;
+}
+
+tbody td {
+    text-align: center;
+}
+
+thead .agreement:nth-of-type(2n+1) {
+    background-color: lightgrey;
+}
+
+tbody .agreement:nth-of-type(2n) {
+    background-color: lightgrey;
+}
